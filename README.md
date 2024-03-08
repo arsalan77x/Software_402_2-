@@ -33,6 +33,10 @@ ___
 ![alt text](/readme_resouce/readme6.png)
 ![alt text](/readme_resouce/readme7.png)
 <br><br>
+در انتها نیز باید برنامه را مستقر کنیم. بدین منظور باید اعمال page build and deployment در github action انجام شود. اگر در تصویر زیر مستقیما گزینه‌ی github action (beta) را در قسمت source انتخاب کنیم یک فایل .yml ساخته شده که برای customization انتخاب خوبی است ولی هدف ما صرفا استقرار مستمر است که با هر پوش به طور خودکار deploy شود. پس همان deploy from branch را انتخاب کرده و شاخه‌ی main را هدف قرار می‌دهیم. پس هر تغییری که بعد از استقرار روی این شاخه انجام شود به طور خودکار اعمال می‌شود.
+<br><br>
+![image](https://github.com/faraz1380/Software_402_2-/assets/63359673/a5b41f65-a1f7-436a-a8a2-5d11bb55caa1)
+<br><br>
 
 ### حل کانفلیکت‌ها
 1. کانفلیکت اول: <br>
