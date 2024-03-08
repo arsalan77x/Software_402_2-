@@ -19,6 +19,19 @@ ___
 <br><br>
 در ادامه PO یک پروژه‌ی Kanban ساخته و task های پروژه را تعریف کرد که در تصویر زیر قابل مشاهده است.
 ![alt text](/readme_resouce/readme3.png)
+<br><br>
+
+مطابق user-story های تعریف شده دو شاخه‌ی اصلی برای محتوا و استایل ساخته شد که چون در صورت گزارش اشاره‌ای به issue کردن تسک ها در kanban نشده بود علاوه بر 7 تسک تعریف شده این دو شاخه را نیز به kanban اضافه کردیم که در نهایت به وضعیت done در آمد که در شکل زیر قابل مشاهده است. 
+<br><br>
+![alt text](/readme_resouce/readme4.png)
+<br><br>
+
+بعد از تمام شدن کار هر شاخه نیاز به pull request بود که دو تصویر زیر حالت آن در قبل و پس از review نشان می‌دهد. همانطور که مشخص است شخص مرور کننده کامیت هارا بررسی  و آن‌هارا approve تا با شاخه‌ی اصلی ادغام شود.
+<br><br>
+![alt text](/readme_resouce/readme5.png)
+![alt text](/readme_resouce/readme6.png)
+![alt text](/readme_resouce/readme7.png)
+<br><br>
 
 ### حل کانفلیکت‌ها
 
