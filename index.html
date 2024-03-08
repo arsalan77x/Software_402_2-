@@ -167,11 +167,32 @@
     </td>
   </tr>
 
-              <!--ContactMe-->
-              <tr id="ContactMe">
-                  <td>
-                  </td>
-              </tr>                    
+
+  <!--CONTACT FORM-->
+  <tr id="ContactMe">
+    <td>
+      <div class="author_content">
+        <h1 class="title">Love to hear form you</h1>
+      </div>
+
+    </td>
+    <td>
+      <section class="contact">
+        <form id="contactform">
+          <label for="name">Full name*</label>
+          <input type="text" name="name" id="name" placeholder="Your name" maxlength="50" required="" />
+          <label for="name">Email address*</label>
+          <input type="email" name="email" id="email" placeholder="Email address" maxlength="100" required="" />
+          <label for="message">Message*</label>
+          <textarea name="message" id="message" placeholder="Your message here..." maxlength="250"
+            required=""></textarea>
+        </form>
+        <button type="submit" onclick="validate()">SUBMIT</button>
+      </section>
+    </td>
+  </tr>
+  </table>
+  </div>               
       </div>
 </body>
 </html>
