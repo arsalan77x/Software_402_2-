@@ -5,14 +5,20 @@
 ___
 
 ### روال انجام آزمایش
-
+در این پروژه یک نرم‌افزار static frontend را به‌صورت pure پیاده‌سازی و سپس با کمک Github Actions  این نرم‌افزار static خود را به‌صورت خودکار، روی Github Pages مستقر (deploy) کرده‌ایم. تصویر زیر خروجی کار را نشان می‌دهد.
+<br><br>
+![alt text](/readme_resouce/readme1.png)
 <br><br>
 ___
 
 ### پیش‌برد روند پروژه
 
+ابتدا مخزن گیت‌هاب توسط PO ساخته شد و سپس دو عضو دیگر که developer هستند به مخزن اضافه شدند.همچنین مطابق تصویر زیر در تنظیمات مخزن، شاخه‌ی main را روی حالت protected تنظیم کرده تا بدون pull request تغییری صورت نگیرد.
 <br><br>
-___
+![alt text](/readme_resouce/readme2.png)
+<br><br>
+در ادامه PO یک پروژه‌ی Kanban ساخته و task های پروژه را تعریف کرد که در تصویر زیر قابل مشاهده است.
+![alt text](/readme_resouce/readme3.png)
 
 ### حل کانفلیکت‌ها
 
