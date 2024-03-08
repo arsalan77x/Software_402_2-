@@ -236,3 +236,195 @@ html {
         margin-top:-25px;
         }
         }
+
+        
+	
+	/*CONTAINER*/
+	.container{
+        width:100%;
+        height:100vh;
+        text-align: center;
+        }
+        
+        .container table td{
+        height:100vh;
+        }
+        
+        .container table td:nth-child(1){
+        background: linear-gradient(rgba(85, 60, 232, 0.9), rgba(1, 1, 1, 0.8)), url("bg.jpg");
+        background-size:cover;
+        }
+        
+        .main{
+            
+        background: linear-gradient(rgba(85, 60, 232, 0.9), rgba(1, 1, 1, 0.8)), url("bg.jpg");
+        background-size:cover;
+        
+        }
+        .container .author_content{
+        padding:30px;
+        color:#fff;
+        
+        }
+        
+        .container .author_content em{
+        color:#000;
+    
+        }
+        
+        .container .author_content .title{
+        font-size:3em;
+        }
+        
+        
+        .container .author_name{
+        width:140px;
+        height:140px;
+        border-radius:50%;
+        padding:50px;
+        margin:20px auto;
+        color:#fff;
+        background:#000;
+        font-weight:bold;
+        font-size:2.5em;
+        
+    
+        /* right:-120px; */
+        text-align:center;
+        background: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.2)), url("profile.png");
+    
+        font-family: 'Otomanopee One', sans-serif;
+        border:2px solid rgba(85, 60, 232, 0.9);
+        
+        background-size:cover;
+        }
+        
+        .container section{
+        padding:10vh;
+        margin:10vh;
+        height:50vh;
+        border-right:1px solid rgba(255,255,255,0.2);
+        text-align:center;
+        }
+        
+        .container .social_icons{
+        position:fixed;
+        
+        bottom:20px;
+        z-index:9;
+        }
+        
+        .container .social_icons a{
+        display:block;
+        margin:20px 0;
+        text-align:center;
+        color:gray;
+        font-size:20px;
+        }
+        .container .social_icons a:hover{
+        color:rgba(85, 60, 232, 0.9);
+        }
+        
+        .languages {
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        }
+        
+        .languages label{
+        display:block;
+        color:#fff;
+        text-align:left;
+        margin:5px 0;
+        margin-top:10px;
+        }
+        
+        .progress {
+        background: rgba(255,255,255,0.1);
+        justify-content: flex-start;
+        border-radius: 100px;
+        align-items: center;
+        position: relative;
+        padding: 0 5px;
+        display: flex;
+        height: 20px;
+        width: 90%;
+        }
+        
+        .progress-value {
+        animation: load 3s normal forwards;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #fff;
+        height: 10px;
+        width: 0;
+        }
+        
+        @keyframes load {
+        0% { width: 0; }
+        100% { width: 88%; }
+        }
+        
+        .progress2,.progress3,.progress4,.progress5,.progress6,.progress7,.progress8 {
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: #fff;
+        height: 10px;
+        width: 0;
+        }
+        
+        .progress2{
+        animation: load2 3s normal forwards;
+        }
+        .progress3{
+        animation: load3 3s normal forwards;
+        }
+        .progress4{
+        animation: load4 3s normal forwards;
+        }
+        .progress5{
+        animation: load5 3s normal forwards;
+        }
+        .progress6{
+        animation: load6 3s normal forwards;
+        }
+        .progress7{
+        animation: load7 3s normal forwards;
+        }
+        .progress8{
+        animation: load8 3s normal forwards;
+        }
+        
+        @keyframes load2 {
+        0% { width: 0; }
+        100% { width: 75%; }
+        }
+        @keyframes load3 {
+        0% { width: 0; }
+        100% { width: 70%; }
+        }
+        @keyframes load4 {
+        0% { width: 0; }
+        100% { width: 60%; }
+        }
+        @keyframes load5 {
+        0% { width: 0; }
+        100% { width: 65%; }
+        }
+        @keyframes load6 {
+        0% { width: 0; }
+        100% { width: 20%; }
+        }
+        @keyframes load7 {
+        0% { width: 0; }
+        100% { width: 15%; }
+        }
+        @keyframes load8 {
+        0% { width: 0; }
+        100% { width: 55%; }
+        }
+        
